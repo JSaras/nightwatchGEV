@@ -1,0 +1,89 @@
+17:36:29.483 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+17:36:29.483 INFO - Launching a standalone Selenium Server
+2017-07-20 17:36:29.506:INFO::main: Logging initialized @289ms to org.seleniumhq.jetty9.util.log.StdErrLog
+17:36:29.564 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:36:29.565 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+17:36:29.565 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:36:29.565 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+17:36:29.567 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
+2017-07-20 17:36:29.610:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-07-20 17:36:29.653:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@14acaea5{/,null,AVAILABLE}
+2017-07-20 17:36:29.795:INFO:osjs.AbstractConnector:main: Started ServerConnector@5bcab519{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-07-20 17:36:29.795:INFO:osjs.Server:main: Started @578ms
+17:36:29.795 INFO - Selenium Server is up and running
+17:36:30.042 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+17:36:30.069 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Test Pages, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+17:36:30.080 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Test Pages, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+1500597390671	geckodriver	INFO	geckodriver 0.18.0
+1500597390678	geckodriver	INFO	Listening on 127.0.0.1:17555
+1500597391199	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1500597392435	Marionette	INFO	Listening on port 56874
+17:36:34.509 INFO - Detected dialect: W3C
+17:36:34.538 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Test Pages, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+17:36:34.565 INFO - Executing: [get: http://www.google.com])
+JavaScript warning: https://www.google.com/xjs/_/js/k=xjs.s.en_US.pqWfMxTLwvY.O/m=sx,c,sb,cdos,cr,elog,hsm,jsa,r,qsm,j,p,d,csi/am=gBGK8njBAZD_E0KCwS2EBWkBEwcQ/rt=j/d=1/t=zcms/rs=ACT90oE1Ioueq9sEoA922jGCWjOXl63-IQ, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+17:36:35.864 INFO - Done: [get: http://www.google.com]
+17:36:35.873 INFO - Executing: [find elements: By.cssSelector: body])
+17:36:35.899 INFO - Done: [find elements: By.cssSelector: body]
+17:36:35.909 INFO - Executing: [is displayed: 0 [[FirefoxDriver: Firefox on XP (b0bfff30-5d51-402b-89a0-4fd42bedf060)] -> css selector: body]])
+17:36:35.957 INFO - Done: [is displayed: 0 [[FirefoxDriver: Firefox on XP (b0bfff30-5d51-402b-89a0-4fd42bedf060)] -> css selector: body]]
+17:36:35.967 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+17:36:35.977 INFO - Done: [find element: By.cssSelector: input[type=text]]
+17:36:35.985 INFO - Executing: [send keys: 1 [[FirefoxDriver: Firefox on XP (b0bfff30-5d51-402b-89a0-4fd42bedf060)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]])
+17:36:36.119 INFO - Done: [send keys: 1 [[FirefoxDriver: Firefox on XP (b0bfff30-5d51-402b-89a0-4fd42bedf060)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]]
+17:36:36.131 INFO - Executing: [find elements: By.cssSelector: button[name=btnG]])
+17:36:36.153 INFO - Done: [find elements: By.cssSelector: button[name=btnG]]
+17:36:36.162 INFO - Executing: [is displayed: 2 [[FirefoxDriver: Firefox on XP (b0bfff30-5d51-402b-89a0-4fd42bedf060)] -> css selector: button[name=btnG]]])
+17:36:36.298 INFO - Done: [is displayed: 2 [[FirefoxDriver: Firefox on XP (b0bfff30-5d51-402b-89a0-4fd42bedf060)] -> css selector: button[name=btnG]]]
+17:36:36.314 INFO - Executing: [find element: By.cssSelector: button[name=btnG]])
+17:36:36.326 INFO - Done: [find element: By.cssSelector: button[name=btnG]]
+17:36:36.333 INFO - Executing: [click: 2 [[FirefoxDriver: Firefox on XP (b0bfff30-5d51-402b-89a0-4fd42bedf060)] -> css selector: button[name=btnG]]])
+17:36:36.420 INFO - Done: [click: 2 [[FirefoxDriver: Firefox on XP (b0bfff30-5d51-402b-89a0-4fd42bedf060)] -> css selector: button[name=btnG]]]
+17:36:37.431 INFO - Executing: [find element: By.cssSelector: #main])
+17:36:37.441 INFO - Done: [find element: By.cssSelector: #main]
+17:36:37.446 INFO - Executing: [get text: 3 [[FirefoxDriver: Firefox on XP (b0bfff30-5d51-402b-89a0-4fd42bedf060)] -> css selector: #main]])
+17:36:37.484 INFO - Done: [get text: 3 [[FirefoxDriver: Firefox on XP (b0bfff30-5d51-402b-89a0-4fd42bedf060)] -> css selector: #main]]
+17:36:37.497 INFO - Executing: [delete session: b98d1b9c-f165-4a75-9ba6-3d88dd7c7fc5])
+17:36:37.508 INFO - HTTP Status: '404' -> incorrect JSON status mapping for 'unknown error' (500 expected)
+17:36:38.403 WARN - Exception thrown
+org.openqa.selenium.WebDriverException: quit
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-TEBS4BM', ip: '192.168.33.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_141'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161031133903, version=47.0.2, platform=XP, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, browserVersion=47.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=Windows_NT, device=desktop}]
+Session ID: b0bfff30-5d51-402b-89a0-4fd42bedf060
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:533)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)
+	at com.sun.proxy.$Proxy4.quit(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:202)
+	at org.openqa.selenium.remote.server.handler.DeleteSession.call(DeleteSession.java:50)
+	at org.openqa.selenium.remote.server.handler.DeleteSession.call(DeleteSession.java:29)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+17:36:38.406 WARN - Exception: quit
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-TEBS4BM', ip: '192.168.33.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_141'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20161031133903, version=47.0.2, platform=XP, proxy=Proxy(), command_id=1.0, specificationLevel=0.0, acceptSslCerts=false, browserVersion=47.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=Windows_NT, device=desktop}]
+Session ID: b0bfff30-5d51-402b-89a0-4fd42bedf060
